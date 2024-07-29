@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: lightpink;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.question-box {
+  
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 650px; /* Atur lebar maksimal kotak */
+    width: 100%; /* Agar konten responsif */
+}
+
+.question-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-pink {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+}
+
+.btn-pink:hover {
+    background-color: pink;
+}
+
+.response {
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.response img {
+    width: 150px; /* Atur ukuran gambar */
+    height: 150px; /* Atur ukuran gambar */
+    object-fit: cover; /* Pastikan gambar tidak terdistorsi */
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    margin-bottom: 10px;
+}
+
+.response p {
+    margin: 0;
+}
+
+footer {
+    background-color: lightgrey; /* Warna latar belakang */
+    padding: 10px 0; /* Padding atas dan bawah */
+    text-align: center; /* Menyusun teks di tengah */
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .float-right {
+    margin-bottom: 10px; /* Jarak bawah */
+}
+
+footer .float-right a {
+    text-decoration: none;
+    color: #007bff; /* Warna link */
+}
+
+footer .float-right a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+footer p {
+    margin: 0;
+}

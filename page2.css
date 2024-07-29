@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+    background-size: cover; /* Menutupi seluruh latar belakang */
+    background-position: center; /* Posisi latar belakang di tengah */
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.2); /* Warna putih dengan transparansi */
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan kotak */
+    max-width: 300px; /* Lebar maksimal form */
+    width: 100%; /* Lebar penuh hingga maksimal */
+    text-align: center; /* Teks terpusat */
+    backdrop-filter: blur(10px); /* Efek blur di belakang konten */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Border dengan transparansi */
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); /* Lebar input text dengan padding */
+    padding: 8px; /* Padding dalam input */
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Border transparan */
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5); /* Background putih dengan transparansi */
+    color: black; /* Warna teks */
+    box-sizing: border-box; /* Termasuk padding dan border dalam width */
+}
+
+button {
+    width: calc(100% - 20px); /* Lebar tombol sesuai dengan lebar input */
+    padding: 10px; /* Padding tombol */
+    background-color: #ff69b4; /* Warna latar belakang tombol */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box; /* Termasuk padding dan border dalam width */
+}
+
+button:hover {
+    background-color: #ff1493; /* Warna latar belakang tombol saat hover */
+}
